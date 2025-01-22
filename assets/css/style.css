@@ -9,9 +9,17 @@ img
   max-width: 100%;
 }
 
+ul,li{
+    list-style: none;
+}
+
 .d-flex{
     display: flex;
 }
+.fd-c{
+    flex-direction: column;
+}
+
 .debug
 {
 
@@ -45,8 +53,11 @@ img
     min-height: 450px;
   }
   .business-card{
-    min-height: 600px;
+    min-height: 800px;
     background-color: rgba(211, 153, 45, 0.719);
+  }
+  .enterprise{
+    min-height: 200px;
   }
 
 }
@@ -202,10 +213,27 @@ header{
         border-bottom: 1px solid grey;
     }
     .card-content{
-        padding: 1rem;
-        gap: 1.5rem;
-         flex-direction: column;
+        padding: 1.5rem;
+        gap: 1.3rem;
+        flex-direction: column;     
     }
+
+    .card-content-big_col{
+        padding: 1.5rem;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .card-title{
+            gap: 0.70rem;
+        }
+        p{
+            margin-top: 1.5rem;
+        }
+    }
+
+
+
     .card-price{
         margin-top: 0.50rem;
         flex-direction: column;
@@ -216,4 +244,24 @@ header{
         flex-direction: column;
         gap: 1rem;
     }
+    .card-try{
+        flex-direction: column;
+        gap: 1rem;
+        
+        .border-bottom-card{
+            width: 50px;
+            height: 30px;
+            border-bottom: 1px solid lightgray;        
+        }
+    }
+    .card-list{
+        gap: 1rem;
+        
+        ul{
+            gap: 1rem;
+        }
+        
+    }
+
+    
 }
