@@ -9,6 +9,9 @@ img
   max-width: 100%;
 }
 
+.d-flex{
+    display: flex;
+}
 .debug
 {
 
@@ -40,6 +43,10 @@ img
     background-color: rgb(202, 202, 103);
 
     min-height: 450px;
+  }
+  .business-card{
+    min-height: 600px;
+    background-color: rgba(211, 153, 45, 0.719);
   }
 
 }
@@ -179,8 +186,34 @@ header{
 /* #region business */
 
 .business-head{
-    padding: 2rem;
+    margin-top: 2rem;
     h2{ 
         margin-bottom: 1rem;
+    }
+}
+
+.business-card{
+    
+    border: 1px solid grey;
+    
+    .card-target{
+        text-align: center;
+        padding: 0.50rem;
+        border-bottom: 1px solid grey;
+    }
+    .card-content{
+        padding: 1rem;
+        gap: 1.5rem;
+         flex-direction: column;
+    }
+    .card-price{
+        margin-top: 0.50rem;
+        flex-direction: column;
+        gap: 0.50rem;
+    }
+
+    .card-info{
+        flex-direction: column;
+        gap: 1rem;
     }
 }
