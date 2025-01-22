@@ -49,14 +49,14 @@ img
 
 /* #region layout  */
 .container-large{
-    width: 85%;
-    max-width: 1200px;
+    width: 80%;
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 
 .container{
-  width: 70%;
-  max-width: 1200px;
+  width: 65%;
+  /* max-width: 1200px; */
   margin: 0 auto;
 }
 
@@ -165,11 +165,22 @@ header{
 
 /* #endregion header */
 
-/* #region jumbotron */
+
 
 .jumbo-left{
     display: flex;
     flex-direction: column;
     gap: 1rem;
 
+}
+
+/* #region jumbotron */
+
+/* #region business */
+
+.business-head{
+    padding: 2rem;
+    h2{ 
+        margin-bottom: 1rem;
+    }
 }
