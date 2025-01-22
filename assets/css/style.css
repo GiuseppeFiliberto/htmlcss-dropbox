@@ -22,6 +22,26 @@ img
     background-color: bisque;
   }
 
+  .container-large{
+    background-color: aquamarine;
+    min-height: 400px;
+  }
+
+  h1{
+    background-color: rgb(154, 92, 212);
+    font-size: 4rem;
+  }
+  
+  .jumbotron{
+    background-color: lightskyblue;
+  }
+
+  .jumbo-img{
+    background-color: rgb(202, 202, 103);
+
+    min-height: 450px;
+  }
+
 }
 
 /* #endregion common  */
@@ -29,7 +49,7 @@ img
 
 /* #region layout  */
 .container-large{
-    width: 70%;
+    width: 85%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -104,7 +124,7 @@ img
   
   }
 
-/* region header */
+/* #region header */
 
 header{
     display: flex;
@@ -143,3 +163,13 @@ header{
     
 }
 
+/* #endregion header */
+
+/* #region jumbotron */
+
+.jumbo-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
