@@ -5,8 +5,12 @@
     font-family: "Roboto Condensed", serif;
 
 }
+body{
+    padding-top: 4rem;
+}
 :root{
     --drop-primary: #0061fe;
+    --drop-primary-dark: #081653;
     --drop-primary-light: #b4d0e6;
     --drop-dark: #010202;
     --drop-light: #e0dfe2;
@@ -72,17 +76,17 @@ a{
   }
 
   .container-large{
-    background-color: aquamarine;
-    min-height: 400px;
+    /* background-color: aquamarine; */
+    /* min-height: 400px; */
   }
 
   h1{
-    background-color: rgb(154, 92, 212);
+    /* background-color: rgb(154, 92, 212); */
     font-size: 4rem;
   }
   
   .jumbotron{
-    background-color: lightskyblue;
+    /* background-color: lightskyblue; */
   }
 
   .jumbo-img{
@@ -121,7 +125,7 @@ a{
     /* max-width: 1200px; */
     margin: 0 auto;
     position: relative;
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
 }
 
 .container{
@@ -201,10 +205,10 @@ header{
     display: flex;
     padding: 1rem;
     position: fixed;
-    width: 100%;
     top: 0;
     left: 0;
-    z-index: 2;
+    width: 100%;
+    z-index: 999;
     align-items: center;
     justify-content: space-between;
 
@@ -218,7 +222,7 @@ header{
         padding-bottom: 1.4rem;
     }
     a:hover{
-        border-bottom: 3px solid var(--drop-primary);
+        border-bottom: 2px solid var(--drop-primary-dark);
     }
 
     .head-left{
@@ -246,6 +250,17 @@ header{
 /* #endregion header */
 
 
+/* #region jumbotron */
+.jumbotron{
+    background-color: var(--drop-primary-light);
+    h1{
+        font-size: 5rem;
+        font-weight: 900;
+    }
+    .big-title{
+        padding-top: 3rem;
+    }
+}
 
 .jumbo-left{
     display: flex;
@@ -253,9 +268,6 @@ header{
     gap: 1rem;
 
 }
-
-/* #region jumbotron */
-
 /* #region business */
 
 
