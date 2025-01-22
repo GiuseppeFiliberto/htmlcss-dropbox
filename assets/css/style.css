@@ -304,10 +304,13 @@ header{
 /* #endregion bottom title */
 
 /* #region footer */
-
+footer{
+    position: relative;
+}
 .footer-top{
     padding: 1rem;
     justify-content: space-around;
+    padding-bottom: 4rem;
 }
 
 .foot-list{
@@ -320,3 +323,15 @@ header{
     
 }
 
+.line-bottom{
+    width: 100px;
+    height: 20px;
+    border-top: 2px solid grey;
+    /* background-color: aliceblue; */
+    position: absolute;
+    left: 210px;
+}
+
+.language-selector{
+    margin-top: 3rem;
+}
