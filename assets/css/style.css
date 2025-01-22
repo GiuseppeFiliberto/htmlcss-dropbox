@@ -307,6 +307,7 @@ header{
 
 .footer-top{
     padding: 1rem;
+    justify-content: space-around;
 }
 
 .foot-list{
