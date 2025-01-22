@@ -20,6 +20,13 @@ ul,li{
     flex-direction: column;
 }
 
+.title-section{
+    margin-top: 2rem;
+    h2{ 
+        margin-bottom: 1rem;
+    }
+}
+
 .debug
 {
 
@@ -62,6 +69,11 @@ ul,li{
   .partner-img{
     background-color: rgba(165, 42, 42, 0.644);
     min-height: 400px;
+  }
+
+  .card-img{
+    background-color: pink;
+    min-height: 300px;
   }
 
 }
@@ -200,12 +212,7 @@ header{
 
 /* #region business */
 
-.business-head{
-    margin-top: 2rem;
-    h2{ 
-        margin-bottom: 1rem;
-    }
-}
+
 
 .business-card{
     
@@ -267,10 +274,20 @@ header{
 }
 
 /* #endregion business */
+
+/* #region partner */
 .partner{
     margin-top: 7rem;
 }
 .text-partner{
     gap: 0.70rem;
     padding-top: 3rem;
+}
+/* #endregion partner */
+
+/* #region drop-business */
+.card{
+    p{
+        padding-top: 1rem;
+    }
 }
