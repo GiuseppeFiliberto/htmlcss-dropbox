@@ -291,3 +291,8 @@ header{
         padding-top: 1rem;
     }
 }
+
+.bottom-title{
+    margin: 3rem 0 3rem 0;
+    gap: 2rem;
+}
