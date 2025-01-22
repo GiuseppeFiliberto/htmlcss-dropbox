@@ -295,9 +295,18 @@ header{
     }
 }
 
+/* #region bottom title */
 .bottom-title{
     margin: 3rem 0 3rem 0;
     gap: 2rem;
+}
+
+/* #endregion bottom title */
+
+/* #region footer */
+
+.footer-top{
+    padding: 1rem;
 }
 
 .foot-list{
@@ -310,6 +319,3 @@ header{
     
 }
 
-.footer-top{
-    padding: 1rem;
-}
