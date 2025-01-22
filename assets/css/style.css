@@ -89,6 +89,7 @@ ul,li{
     width: 80%;
     /* max-width: 1200px; */
     margin: 0 auto;
+    position: relative;
 }
 
 .container{
@@ -329,9 +330,10 @@ footer{
     border-top: 2px solid grey;
     /* background-color: aliceblue; */
     position: absolute;
-    left: 210px;
+    left: 37px;
 }
 
 .language-selector{
     margin-top: 3rem;
+    margin-left: 37px;
 }
