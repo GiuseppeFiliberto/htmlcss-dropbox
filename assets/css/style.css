@@ -75,7 +75,10 @@ ul,li{
     background-color: pink;
     min-height: 300px;
   }
-
+  footer{
+    background-color: black;
+    min-height: 400px;
+  }
 }
 
 /* #endregion common  */
