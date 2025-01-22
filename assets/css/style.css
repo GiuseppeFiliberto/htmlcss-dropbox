@@ -211,6 +211,7 @@ header{
     background-color: var(--drop-lighter);
     display: flex;
     padding: 1rem;
+    padding-top: 1.50rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -266,7 +267,7 @@ header{
         font-weight: 900;
     }
     .big-title{
-        /* padding-top: 4rem; */
+        padding-top: 3rem;
         padding-bottom: 2rem;
     }
 }
@@ -385,7 +386,7 @@ header{
         padding: 0.50rem;
         border-bottom: 1px solid grey;
     }
-    
+
     .card-content-big_col{
         padding: 1.5rem;
         gap: 1rem;
@@ -431,6 +432,7 @@ header{
 /* #region footer */
 footer{
     position: relative;
+    background-color: var(--drop-dark);
 }
 .footer-top{
     padding: 1rem;
@@ -440,6 +442,7 @@ footer{
 
 .foot-list{
     /* padding: 1rem; */
+    color: var(--drop-lighter);
 
     ul{
         margin-top: 1rem;
@@ -460,4 +463,5 @@ footer{
 .language-selector{
     margin-top: 3rem;
     margin-left: 37px;
+    color: var(--drop-light);
 }
