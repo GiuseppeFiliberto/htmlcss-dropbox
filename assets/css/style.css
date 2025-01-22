@@ -59,6 +59,10 @@ ul,li{
   .enterprise{
     min-height: 200px;
   }
+  .partner-img{
+    background-color: rgba(165, 42, 42, 0.644);
+    min-height: 400px;
+  }
 
 }
 
@@ -232,8 +236,6 @@ header{
         }
     }
 
-
-
     .card-price{
         margin-top: 0.50rem;
         flex-direction: column;
@@ -261,7 +263,14 @@ header{
             gap: 1rem;
         }
         
-    }
+    }    
+}
 
-    
+/* #endregion business */
+.partner{
+    margin-top: 7rem;
+}
+.text-partner{
+    gap: 0.70rem;
+    padding-top: 3rem;
 }
