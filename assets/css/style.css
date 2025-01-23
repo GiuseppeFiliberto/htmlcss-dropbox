@@ -16,6 +16,7 @@ body{
     --drop-dark: #010202;
     --drop-light: #e0dfe2;
     --drop-lighter: #ffffff;
+    --drop-month: rgb(185, 185, 185);    
 }
 
 
@@ -50,8 +51,21 @@ a{
     text-align: center;
 }
 
+.btn-partner{
+
+    padding: 0.30rem 0.60rem 0.30rem 0.60rem;
+    color: var(--drop-dark);
+    border: 1px solid var(--drop-dark);
+    display: inline-block;
+    text-align: center;
+}
+
 .btn-cta{
-    font-size: 1rem;
+    padding: 1rem;
+}
+
+.btn-try{
+    padding: 0.60rem 1rem 0.60rem 1rem;
 }
 
 
@@ -284,14 +298,14 @@ header{
 
 .jumbo-img{
     img{
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
 }
 
 .go-to-arrow{
     font-size: 2.50em;
     font-weight: 900;
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 
@@ -318,7 +332,8 @@ header{
 
 
 .business-card{
-    min-height: 950px;
+    height: 100%;
+    padding-bottom: 3rem;
     border: 1px solid grey;
 
     .card-target{
@@ -347,23 +362,35 @@ header{
     }
 
     .card-price{
-        margin-top: 0.50rem;
         flex-direction: column;
-        gap: 0.50rem;
+        gap: 0.40rem;
+        font-weight: 900;
+
+    }
+
+    .card-price :nth-child(2){
+        font-weight: 600;
+        color: var(--drop-month);
     }
 
     .card-info{
         flex-direction: column;
-        gap: 1rem;
+        gap: 1.50rem;
+        margin-top: 2rem;
     }
     .card-try{
+        margin-top: 2rem;
         flex-direction: column;
-        gap: 1rem;
+        gap: 1.90rem;
 
         .border-bottom-card{
             width: 50px;
             height: 30px;
             border-bottom: 1px solid lightgray;
+        }
+        a{
+            color: var(--drop-primary);
+            text-decoration: underline;
         }
     }
     .card-list{
@@ -398,6 +425,10 @@ header{
 
         .card-title{
             gap: 0.70rem;
+            h3{
+                font-size: 2rem;
+                font-weight: 700;
+            }
         }
         p{
             margin-top: 1.5rem;
@@ -412,8 +443,18 @@ header{
     margin-top: 7rem;
 }
 .text-partner{
-    gap: 0.70rem;
     padding-top: 3rem;
+    line-height: 1.55rem;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    h3{
+        margin-bottom: 1rem;
+        font-size: 1.80rem;
+        line-height: 2.5rem;
+    }
+    p{
+        margin-bottom: 1rem;
+    }
 }
 /* #endregion partner */
 
@@ -428,6 +469,15 @@ header{
 .bottom-title{
     margin: 3rem 0 3rem 0;
     gap: 2rem;
+
+        h2{ font-size: 2.8rem;
+            
+        }
+        a{
+            text-decoration: underline;
+            color: var(--drop-primary);
+            font-weight: 500;
+        }
 }
 
 /* #endregion bottom title */
